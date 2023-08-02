@@ -8,7 +8,7 @@
     background-color: black;
   }
   .navbar a {
-    float: left;
+    float : left;
     font-size: 16px;
     color: white;
     text-align: center;
@@ -21,7 +21,7 @@
     overflow: hidden;
   }
   
-  .dropdown .dropbtn {
+  .dropdown .drop-btn {
     font-size: 16px;  
     border: none;
     outline: none;
@@ -29,10 +29,10 @@
     padding: 14px 16px;
     background-color: inherit;
     font-family: inherit;
-    margin: 0;
+  
   }
   
-  .navbar a:hover, .dropdown:hover .dropbtn {
+  .navbar a:hover, .dropdown:hover .drop-btn {
     background-color: white;
     color:black
     
@@ -48,7 +48,7 @@
   }
   
   .dropdown-content a {
-    float: none;
+    float: none ;
     color: black;
     padding: 12px 16px;
     text-decoration: none;
@@ -62,23 +62,18 @@
   
   .dropdown:hover .dropdown-content {
     display: block;
-
   }
- 
 
-
-
-
-.container-first{
-    height: 80vh;
+.banner-container{
+    height: 92vh;
     width: 100%;
-    background-image: url(images/band.jpg);
+    background-image: url(images/bannerimg.jpg);
     background-position: center;
-    background-size: center;  
+    background-size: contain;  
     position: relative; 
 }
 
-.text-first{
+.banner-text{
     color:white;
     position:absolute;
     text-align: center;
@@ -87,8 +82,42 @@
     transform:translate(-50%, -50%);
 }
 
-.text-sec{
-    width: 60%;
-    text-align: center;
-    left: 50%
+.band-container{
+  width:70%;
+  /* background-color: aquamarine; */
+  margin-left: 190px;
+  margin-top: 50px;
 }
+
+.band-title{
+  text-align: center;
+}
+
+.band-title h2{
+   font-family:Arial, Helvetica, sans-serif;
+   font-weight: lighter;
+   font-size:xx-large;
+}
+
+.card-wrapper{
+  display: flex;
+  flex-wrap: nowrap;
+  
+  height:60vh;
+
+}
+
+.card-wrapper div {
+  
+  margin: 50px;
+  text-align: center;
+  width:70vh;
+}
+
+.card-wrapper div img{
+  height: 30vh;
+  width: auto;
+}
+
+
+
