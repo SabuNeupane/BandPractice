@@ -1,6 +1,7 @@
 *{
     margin: 0;
     padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 .navbar {
@@ -102,13 +103,11 @@
 .card-wrapper{
   display: flex;
   flex-wrap: nowrap;
-  
   height:60vh;
 
 }
 
 .card-wrapper div {
-  
   margin: 50px;
   text-align: center;
   width:70vh;
@@ -118,6 +117,57 @@
   height: 30vh;
   width: auto;
 }
+
+.booking-container{
+  height: 150vh;
+  background-color: black;
+}
+
+.booking-title{
+  text-align: center;
+  color: white;
+  padding-top: 80px;
+  padding-bottom: 20px;
+
+}
+
+.booking-title h2{
+  font-family:Arial, Helvetica, sans-serif;
+  font-weight: lighter;
+  font-size: xx-large;
+}
+
+.booking-card-wrapper{
+  height: 75vh;
+  width: 70%;
+  display: flex;
+  flex-wrap: nowrap;
+  margin: 175px;
+}
+.booking-card-wrapper div {
+  margin: 7.5px;
+  width:70vh;
+  background-color: white;
+}
+
+.booking-card-wrapper div img{
+  height:30vh;
+  width: 100%;
+}
+
+.booking-card-wrapper div h2, p {
+  padding-left: 7.5px;
+}
+
+.booking-card-wrapper div button {
+   background-color: black;
+   text-align: center;
+   color: white;
+   font-size: 16px;
+   margin: 3px 1px;
+   padding: 8px 8px;
+}
+
 
 
 
